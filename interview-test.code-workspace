@@ -1,0 +1,45 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"tuple": "cpp",
+			"utility": "cpp",
+			"xutility": "cpp",
+			"initializer_list": "cpp",
+			"vector": "cpp",
+			"xstring": "cpp",
+			"xiosbase": "cpp",
+			"iosfwd": "cpp",
+			"xlocale": "cpp"
+		}
+	},
+	"launch": {
+		"configurations": [
+			{
+				"type": "java",
+				"name": "Launch Java",
+				"request": "launch",
+				"cwd": "${workspaceFolder}",
+				"console": "internalConsole",
+				"stopOnEntry": false,
+				"mainClass": "a1",
+				"args": ""
+			},
+			{
+				"name": "Launch C++",
+				"type": "cppvsdbg",
+				"request": "launch",
+				"program": "${fileBasenameNoExtension}",
+				"args": [],
+				"stopAtEntry": false,
+				"cwd": "${workspaceFolder}",
+				"environment": [],
+				"externalConsole": false
+			}
+		]
+	}
+}
